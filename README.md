@@ -123,3 +123,5 @@ jobs:
       - name: Build Docker image
         run: docker build -t my-python-app:test .
 ```
+
+![alt text](image.png)
