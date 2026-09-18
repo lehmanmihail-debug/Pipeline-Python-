@@ -34,7 +34,13 @@ if __name__ == "__main__":
 
 ## 3. Файл setup.py для включения development mode
 ```
+# setup.py
+from setuptools import setup, find_packages
 
+setup(
+    name="my-python-app",
+    packages=find_packages(),
+)
 ```
 ## 4. Файл tests/test_app.py
 ```
